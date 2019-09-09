@@ -14,9 +14,6 @@ class Owner
     @owner = owner 
     @@all << self 
     
-    
-    
-    
   end 
   
   def species
@@ -84,7 +81,7 @@ class Owner
    def list_pets
      
      
-     p "I have #{Dog.count} dog(s) and #{Cat.count} cat(s)"
+     p "I have #{dogs.count} dog(s) and #{cats.count} cat(s)"
    end 
    
    
