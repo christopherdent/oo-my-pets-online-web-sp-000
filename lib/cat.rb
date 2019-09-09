@@ -16,6 +16,8 @@ class Cat
     @@all 
   end 
   
-  
+  def self.count
+    @@all 
+  end 
   
 end
